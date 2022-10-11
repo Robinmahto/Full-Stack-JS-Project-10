@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.navbar .logo img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.navbar .navbar-lists {
+  display: flex;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 20px;
+}
+
+.navbar .navbar-lists .nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.hero-section {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+  height: 70vh;
+  margin-top: 50px;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+}
+
+.call > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.call > div span {
+  color: #fff;
+}
+
+.hero-main-section h2 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.hero-main-section button {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.hero-main-section .card {
+  background: rgba(255, 255, 255, 0.4);
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.hero-main-section .card_one {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.hero-main-section .card_two {
+  position: absolute;
+  bottom: 0px;
+  left: 30%;
+}
+
+.hero-main-section .card > div {
+  background: #fff;
+  width: 80px;
+  padding: 5px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.hero-main-section .card > div > i {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.hero-main-section .card > p {
+  color: #fff;
+}
+
+.hero-main-section .line {
+  width: 2px;
+  height: 70px;
+  background: #fff;
+  position: absolute;
+  right: 200px;
+  top: 190px;
+}
+
+.hero-main-section .circle {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 190px;
+  top: 250px;
+}
+
+.hero-main-section .lines {
+  height: 2px;
+  width: 70px;
+  background: #fff;
+  position: absolute;
+  right: 490px;
+  top: 350px;
+}
+
+.hero-main-section .circles {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 470px;
+  top: 340px;
+}
